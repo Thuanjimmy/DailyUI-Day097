@@ -1,0 +1,64 @@
+body {
+  background-color: #30475e;
+  color: #ffffff;
+}
+
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: black;
+  border-radius: 50px;
+  border: grey 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+.notch {
+  background-color: grey;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: white;
+}
+.grey {
+  color: grey;
+  margin-top: 0;
+}
+.pic {
+  width: 100%;
+}
+.bottom {
+  background-color: white;
+  color: black;
+  width: 300px;
+  height: 173px;
+  position: relative;
+  right: 10px;
+  border-radius: 10% 10% 35px 35px;
+  padding: 10px;
+}
+
+.line {
+  width: 20%;
+  border: solid 2px black;
+  position: absolute;
+  left: 115px;
+  top: 5px;
+  margin-bottom: 10px;
+}
+.orange {
+  color: orange;
+}
+.centre {
+  text-align: center;
+}
